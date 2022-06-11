@@ -36,11 +36,11 @@ export default function IndexPage() {
                                     Fantom Digital is an digital art collective, production agency, and collection house based in Florida.
                                 </p>
                                 <p className="text-lg opacity-50">
-                                    Fantom Digital helps creators across the world lauch NFT collections. <a className="underline hover:no-underline" href="https://fantom.digital/about">About &rarr;</a>
+                                    Fantom Digital helps creators across the world lauch NFT collections. <a className="underline hover:no-underline" target="_blank" href="https://fantom.digital/about">About &rarr;</a>
                                 </p>
 
                                 <p className="text-2xl">
-                                    <a className="underline hover:no-underline" href="https://fantom.digital">fantom.digital &rarr;</a>
+                                    <a className="underline hover:no-underline" target="_blank" href="https://fantom.digital">fantom.digital &rarr;</a>
                                 </p>
                             </div>
                         </div>
@@ -50,12 +50,12 @@ export default function IndexPage() {
 
                 <div className="relative border-t border-zinc-800 bg-zinc-900 p-12 border-opacity-50">
                     <div className="flex items-center w-full gap-4">
-                        <a className="text-base md:text-2xl opacity-50 hover:opacity-100" href="">My Collection</a>
+                        {/* <a className="text-base md:text-2xl opacity-50 hover:opacity-100" href="">My Collection</a> */}
 
                         <div className="flex-1" />
-                        <a href="#" target="_blank" className="text-2xl"><i className="fa-brands fa-github" /></a>
-                        <a href="#" target="_blank" className="text-2xl"><i className="fa-brands fa-discord" /></a>
-                        <a href="#" target="_blank" className="text-2xl"><i className="fa-brands fa-twitter" /></a>
+                        <a href="https://github.com/al5ina5" target="_blank" className="text-2xl"><i className="fa-brands fa-github" /></a>
+                        <a href="https://discord.gg/TUgJg338kS" target="_blank" className="text-2xl"><i className="fa-brands fa-discord" /></a>
+                        <a href="https://twitter.com/youngseebi" target="_blank" className="text-2xl"><i className="fa-brands fa-twitter" /></a>
                     </div>
                 </div>
             </div >
