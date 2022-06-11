@@ -24,5 +24,5 @@ export default function BackgroundTopology({ color }) {
         }
     }, [color])
 
-    return <div id="qisnasssdfas" className="fixed inset-0" />
+    return <div id="qisnasssdfas" className="absolute inset-0" />
 }
