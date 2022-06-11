@@ -13,10 +13,10 @@ export default function IndexPage() {
 
                 <div className="h-full grid grid-cols-1 lg:grid-cols-3 divide-x divide-y divide-zinc-800 divide-opacity-50">
                     <motion.div className="col-span-2  h-screen relative w-full flex items-center justify-center lg:rounded-r-3xl">
-                        <BackgroundTopology color={randomColor({
+                        {/* <BackgroundTopology color={randomColor({
                             luminosity: 'dark',
                             hue: 'green'
-                        })} />
+                        })} /> */}
 
                         <div className="relative w-full max-w-3xl p-6 space-y-6">
                             {/* <div className="w-24 lg:w-40 rounded-2xl shadow-lg bg-black overflow-hidden">
